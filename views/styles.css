@@ -238,3 +238,35 @@ div.button {
 #cssmenu > ul > li.has-sub > a:hover:before {
   border-top: 5px solid #ffffff;
 }
+
+box {
+    padding: 40px; 
+    position: absolute; 
+    top: 150px; 
+    left: 0px; 
+    width: auto; height: auto; 
+    background-color: #000; 
+}
+
+box2 {
+    Padding: 20px;
+    position: absolute;
+    top:280px;
+    left:0px;
+    border: solid;
+    width: 400px; height: auto; 
+}
+
+box3 {
+    padding: 20px;
+    position: absolute;
+    top:100px;
+    left:500px;
+}
+
+m {
+    font-family: 'Ropa Sans', sans-serif; 
+    font-size:18px; 
+    color: #000; 
+    text-align: left;
+}
