@@ -1,4 +1,18 @@
 const router = require('express').Router();
+const data = require('../models/data');
+
+router.get('/', (req,res)=>{
+	res.render('index');
+	data
+		.find("0")
+		.then(data =>{
+			console.log(data);
+		})
+		.catch(err=>{
+			console.log("something went wrong",err);
+		})
+});
+
 
 router.get('/library', (req,res)=>{
 	console.log('insidne the mother fucking funcitons')
