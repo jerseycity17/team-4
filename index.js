@@ -39,10 +39,6 @@ app.listen(port, () => { console.log("Server started on " + port); });
 // get the beers router (the export of the beers controller file)
 const Router = require('./controllers/routes.js');
 
-app.get('/', (req,res)=>{
-	res.render('index');
-});
-
 
 // hook it up to the app
 app.use('/', Router);
