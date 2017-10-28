@@ -15,9 +15,13 @@ h1, p {
 
 header{
   margin-top: -47px;
-  background-color: blue;
+  background-color: black;
   height:50px;
 }
+
+/*Design for Base Pages */
+
+
 
 /* ----------- Relevant Code Below ----- */
 
@@ -31,7 +35,7 @@ div#container {
   margin: 50px auto 0;
 }
 div#container div.cell {
-  display: table-cell;
+  display: table-cell; 
 }
 div#container div.cell:last-child {
   /* Makes sure this cell is only wide enough
@@ -237,4 +241,36 @@ div.button {
 }
 #cssmenu > ul > li.has-sub > a:hover:before {
   border-top: 5px solid #ffffff;
+}
+
+box {
+    padding: 40px; 
+    position: absolute; 
+    top: 150px; 
+    left: 0px; 
+    width: auto; height: auto; 
+    background-color: #000; 
+}
+
+box2 {
+    Padding: 20px;
+    position: absolute;
+    top:280px;
+    left:0px;
+    border: solid;
+    width: 400px; height: auto; 
+}
+
+box3 {
+    padding: 20px;
+    position: absolute;
+    top:100px;
+    left:500px;
+}
+
+m {
+    font-family: 'Ropa Sans', sans-serif; 
+    font-size:18px; 
+    color: #000; 
+    text-align: left;
 }
