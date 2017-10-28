@@ -1,0 +1,322 @@
+@charset "utf-8";
+/* CSS Document */
+::selection {
+	color:orange;
+	
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative
+  text-align: center; 
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body {
+	width:1349px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.mrg {
+
+	margin:0px auto;
+	padding:0px;
+}
+.nav {
+	padding-left:680px;
+	height:40px;
+	background-color:#31535f;
+	border-bottom:5px solid rgba(255, 165, 0, .9);
+	box-shadow:0px 0px 30px  orange;
+	
+
+}
+	.nav ul {	
+		width:100%;
+		margin:0 auto;	
+		padding:0px;	
+	}
+	.nav ul li {
+		font-size:16px;
+		padding:10px 25px 0px 20fx ;
+		display:inline-block;
+		text-decoration:none;
+	}
+	.nav ul li a {
+		padding:6px;
+		color:white;
+		text-decoration:none;
+	}
+	.nav ul li a:hover {
+		border-radius:1px;
+		color:#31535f;
+		background-color:white;
+	}
+
+.bglogo {
+	padding-left:450px;
+	
+}
+.firstbg {
+	width:100%;
+	height:750px;
+	background-image:url(img/bgimg2.jpg);
+	background-repeat:no-repeat;
+}
+.logo {
+	position:absolute;
+	top:320px;
+	width:60px;
+	height:80px;
+	background-color:#31535f;
+	opacity:0.6;
+}
+	.line  {
+		position:absolute;
+		top:10px;
+		left:8%;
+		width:80%;
+		height:5px;
+		background-color:white;
+	}
+	.line1 {
+		position:absolute;
+		top:20px;
+		left:8%;
+		width:80%;
+		height:5px;
+		background-color:white;
+	}
+	.line2 {
+		position:absolute;
+		top:30px;
+		left:8%;
+		width:80%;
+		height:5px;
+		background-color:white;
+	}
+	.line3 {
+		position:absolute;
+		top:40px;
+		left:8%;
+		width:80%;
+		height:5px;
+		background-color:white;
+	}
+	.line4 {
+		position:absolute;
+		top:50px;
+		left:8%;
+		width:80%;
+		height:5px;
+		background-color:orange;
+	}
+	.line5 {
+		position:absolute;
+		top:60px;
+		left:8%;
+		width:60%;
+		height:5px;
+		background-color:orange;
+	}
+	.line6 {
+		position:absolute;
+		top:70px;
+		left:8%;
+		width:40%;
+		height:5px;
+		background-color:orange;
+	}
+
+.firstbg h1{
+	padding-left:520px;
+	padding-top:265px;
+	color:red;
+	font-size:60px;
+	opacity:0.6;
+
+}
+.firstbg  p {
+	padding-left:560px;
+	margin-top:-4px;
+	font-size:20px;
+	opacity:1;
+	color:#40344c;
+
+
+	
+}
+	.firstbg h1:hover , p:hover {
+		cursor:pointer;
+}
+.catgories {
+	text-align:justify;
+	color:black;
+	position:relative;
+	top:0px;
+	width:100%;
+	height:590px;
+	background-color:#F3F3F3;
+	border-bottom:px solid orange;
+
+
+}
+.catg1:hover , .catg2:hover , .catg3:hover , .catg4:hover {
+	box-shadow:0px 10px 15px  orange;
+}
+.catgories h3 {
+
+	padding:5px 0px 5px 0px;
+	border-radius:5px;
+	background-color:#31535f;
+	text-align:center;
+	color:white;
+}
+	.catg1 {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:80px;
+		left:40px;
+		width:260px;
+		height:auto;
+		background-color:#F3F3F3;
+		box-shadow:0px 0px 3px  orange;
+	}
+	.catg2 {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:80px;
+		left:60px;
+		width:260px;
+		height:auto;
+		background-color:#F3F3F3;
+		box-shadow:0px 0px 3px  orange;
+	}
+		.catg3 {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:80px;
+		left:80px;
+		width:260px;
+		height:auto;
+		background-color:#F3F3F3;
+		box-shadow:0px 0px 3px  orange;
+	}
+	.catg4 {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:80px;
+		left:100px;
+		width:260px;
+		height:auto;
+		background-color:#F3F3F3;	
+		box-shadow:0px 0px 3px  orange;
+	}
+
+.imgsecond {
+
+	width:100%;
+	height:700px;
+	background-image:url(img/landpagebottle.jpg);
+	background-repeat:no-repeat;
+}
+	.imgsecond .content	{
+		padding:30px;
+		position:relative;
+		top:150px;
+		margin-left:260px;
+		width:800px;
+		height:300px;
+		background-color:white;
+		opacity:0.7;
+		border:10px solid rgba(255, 165, 0, .7);
+	}
+.footer {
+	width:100%;
+	height:250px;
+	background-color:#ECECEC;
+}
+	.footer .seprline {
+		opacity:0.6;
+		width:100%;    
+		height:5px;
+		background-color:orange;
+		border-radius:30px;
+	}
+	.icon {
+		padding:50px 0px 0px 505px;
+		
+		
+	}
+	.icon li:hover {
+		 box-shadow:0px 0px 5px  orange;
+	 }
+	.icon ul li {
+		font-size:30px;
+		list-style:none;
+		display:inline;
+		padding-left:10px;	
+	}
+	i {
+		color:orange;
+	}
+	.copyright {
+		padding:0px 0px 0px 510px;
+	}
+	#cent {
+			padding:0px 0px 0px 70px;
+	}

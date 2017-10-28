@@ -4,7 +4,7 @@ const data = require('../models/data');
 var search_results;
 
 router.get('/', (req,res)=>{
-	res.render('index');
+	res.render('new_homepage/index');
 	
 });
 
